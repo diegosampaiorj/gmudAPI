@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gmud.API", "Gmud.API\Gmud.API.csproj", "{3442312C-AE05-44D0-86C4-9E0BD72D9BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gmud.API", "Gmud.API\Gmud.API.csproj", "{3442312C-AE05-44D0-86C4-9E0BD72D9BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{0619D2D6-6DDA-4FFA-B9D6-C7DD5F549489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domain", "02-Domain", "{164DA7F0-7AD4-4338-BFAF-C1AC8F937C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Infra", "03-Infra", "{6E011B7E-DC12-4BC6-B418-4C10D58E8E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gmud.API.Domain", "Gmud.API.Domain\Gmud.API.Domain.csproj", "{FC6B48EA-5837-4A01-8C98-20F822A742B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gmud.API.Infra", "Gmud.API.Infra\Gmud.API.Infra.csproj", "{F47B4C62-CDB5-48ED-9474-FF91DDC4130B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,22 @@ Global
 		{3442312C-AE05-44D0-86C4-9E0BD72D9BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3442312C-AE05-44D0-86C4-9E0BD72D9BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3442312C-AE05-44D0-86C4-9E0BD72D9BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6B48EA-5837-4A01-8C98-20F822A742B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6B48EA-5837-4A01-8C98-20F822A742B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6B48EA-5837-4A01-8C98-20F822A742B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6B48EA-5837-4A01-8C98-20F822A742B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47B4C62-CDB5-48ED-9474-FF91DDC4130B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47B4C62-CDB5-48ED-9474-FF91DDC4130B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47B4C62-CDB5-48ED-9474-FF91DDC4130B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47B4C62-CDB5-48ED-9474-FF91DDC4130B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3442312C-AE05-44D0-86C4-9E0BD72D9BB6} = {0619D2D6-6DDA-4FFA-B9D6-C7DD5F549489}
+		{FC6B48EA-5837-4A01-8C98-20F822A742B5} = {164DA7F0-7AD4-4338-BFAF-C1AC8F937C0D}
+		{F47B4C62-CDB5-48ED-9474-FF91DDC4130B} = {6E011B7E-DC12-4BC6-B418-4C10D58E8E89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A204D516-E766-42CC-B7DB-359404523709}
