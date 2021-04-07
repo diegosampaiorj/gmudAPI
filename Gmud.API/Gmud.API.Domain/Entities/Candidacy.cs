@@ -6,6 +6,7 @@ namespace Gmud.API.Domain.Entities
 {
     public class Candidacy
     {
-        public int MyProperty { get; set; }
+        public int ID { get; set; }
+        public string Responsavel { get; set; }
     }
 }
