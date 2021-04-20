@@ -9,5 +9,6 @@ namespace Gmud.API.Domain.Entities
         public int ID { get; set; }
         public string Responsavel { get; set; }
         public DateTime DataGMUD { get; set; }
+        public int MyProperty { get; set; }
     }
 }
