@@ -20,8 +20,8 @@ namespace Gmud.API.Controllers
         }
 
         // GET api/<RelatorioController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{idRelatorio}")]
+        public string Get(int idRelatorio)
         {
             return "value";
         }
